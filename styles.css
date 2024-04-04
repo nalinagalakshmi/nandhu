@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure video fills the entire viewport */
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure video is behind other content */
+}
+/* Style the video element */
+#bg-video {
+    width: 100%; /* Ensure video fills its container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover entire container */
+}
+.naga{
+    width: 450px;
+    height: 500px;
+    background-color:rgb(71, 50, 254);
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    opacity: 0.9;
+    background:linear-gradient( to right, yellow,green ,blue)
+}
+.naga h2,h4{
+    text-align: center;
+}
+.naga input {
+    height: 40px;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    border:1px solid blue;
+}
+button{
+    width:20%;
+    height: 50px;
+    margin-left:170px;
+    border-radius: 10px;
+    
+}
+button:hover{
+background-color: aqua;
+}
+
+
+
+.bindhu{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 45px;
+    text-align: center;
+    color: white;
+    
+}
+.uday{
+     float: left;
+
+}
+.uday h4{
+    float: right;
+}
